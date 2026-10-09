@@ -57,7 +57,7 @@ slug: /
 | 3D 作業 | [3D 作業](/guides/3d) |
 | キャンバスとファイル | [2D キャンバス](/guides/canvas-2d) · [PSD](/guides/psd) · [読み込み](/guides/import) · [保存と復元](/guides/save-recover) |
 | リファレンス | [設定](/reference/settings) · [ショートカット](/reference/shortcuts) · [サブツール](/reference/subtools) |
-| ヘルプ | [トラブルシューティング](/troubleshooting) · [よくある質問](/faq) · [パッチノート](/changelog/0.1.0) |
+| ヘルプ | [トラブルシューティング](/troubleshooting) · [よくある質問](/faq) · [パッチノート](/changelog/0.1.0-beta.1) |
 
 ## お問い合わせ
 
@@ -66,6 +66,6 @@ slug: /
 報告していただく際は、以下の内容も一緒に書いていただくと再現が早くなります。
 
 1. Unity のバージョンとレンダーパイプライン（BRP / URP）
-2. MingPainter のバージョン（0.1.0）
+2. MingPainter のバージョン（0.1.0-beta.1）
 3. Console のログ全文
 4. 再現手順

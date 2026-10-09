@@ -16,7 +16,7 @@ sidebar_position: 1
 1. **unitypackage**: パッケージファイルを Unity エディターの Project ウィンドウにドラッグして入れます。
 2. **VPM**: VCC または VPM リポジトリから追加します。リポジトリの URL は公開時にこの文書に記載します。
 
-パッケージファイル名は `<製品名>_<バージョン>` の形式です。この文書はバージョン 0.1.0 を基準にしています。
+パッケージファイル名は `com.studioraming.mingpainter-<バージョン>.unitypackage` の形式です。この文書はバージョン 0.1.0-beta.1 を基準にしています。
 
 ![パッケージが追加された Project ウィンドウ](/img/captures/install-project-window.png)
 

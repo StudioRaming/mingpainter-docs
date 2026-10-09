@@ -17,7 +17,7 @@ import autoLinkTerms from './src/remark/auto-link-terms.mjs';
 // navbar item, so its i18n key carries the version (item.label.v0.1.6) and a
 // new one has to be written; the previous key is then reported as unknown and
 // can be deleted from the three navbar.json files.
-const MINGPAINTER_VERSION = '0.1.0';
+const MINGPAINTER_VERSION = '0.1.0-beta.1';
 const LATEST_CHANGELOG = `/changelog/${MINGPAINTER_VERSION}`;
 
 /** @type {import('@docusaurus/types').Config} */
@@ -148,7 +148,7 @@ const config = {
           },
           // The current version, and the shortest way to what changed in it.
           // `to` rather than `href` so the baseUrl and the locale prefix are
-          // applied - /mingpainter-docs/en/changelog/0.1.0 for an English reader.
+          // applied - /mingpainter-docs/en/changelog/0.1.0-beta.1 for an English reader.
           {
             to: LATEST_CHANGELOG,
             label: `v${MINGPAINTER_VERSION}`,

@@ -54,7 +54,7 @@ const sidebars = {
     },
     'troubleshooting',
     'faq',
-    'changelog/0.1.0',
+    'changelog/0.1.0-beta.1',
   ],
 };
 

@@ -5,5 +5,5 @@
   "link.item.label.Installation": {"message": "설치", "description": "The label of footer link with label=Installation linking to /getting-started/installation"},
   "link.item.label.Shortcuts": {"message": "단축키", "description": "The label of footer link with label=Shortcuts linking to /reference/shortcuts"},
   "link.item.label.studioraming@gmail.com": {"message": "studioraming@gmail.com", "description": "The label of footer link with label=studioraming@gmail.com linking to mailto:studioraming@gmail.com"},
-  "copyright": {"message": "© StudioRaming. MingPainter 0.1.0.", "description": "The footer copyright"}
+  "copyright": {"message": "© StudioRaming. MingPainter 0.1.0-beta.1.", "description": "The footer copyright"}
 }

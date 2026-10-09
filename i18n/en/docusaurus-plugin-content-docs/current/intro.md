@@ -57,7 +57,7 @@ For the full installation steps, see [Installation](/getting-started/installatio
 | 3D work | [3D work](/guides/3d) |
 | Canvas and files | [2D canvas](/guides/canvas-2d) · [PSD](/guides/psd) · [Import](/guides/import) · [Save and recover](/guides/save-recover) |
 | Reference | [Settings](/reference/settings) · [Shortcuts](/reference/shortcuts) · [Subtools](/reference/subtools) |
-| Help | [Troubleshooting](/troubleshooting) · [FAQ](/faq) · [Patch notes](/changelog/0.1.0) |
+| Help | [Troubleshooting](/troubleshooting) · [FAQ](/faq) · [Patch notes](/changelog/0.1.0-beta.1) |
 
 ## Contact
 
@@ -66,6 +66,6 @@ For bugs or questions, email `studioraming@gmail.com`.
 When you report a problem, include the following. It helps us reproduce it faster.
 
 1. Unity version and render pipeline (BRP / URP)
-2. MingPainter version (0.1.0)
+2. MingPainter version (0.1.0-beta.1)
 3. Full Console log
 4. Steps to reproduce

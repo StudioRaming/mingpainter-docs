@@ -16,7 +16,7 @@ sidebar_position: 1
 1. **unitypackage**: 패키지 파일을 Unity 에디터의 Project 창으로 끌어 넣습니다.
 2. **VPM**: VCC 또는 VPM 저장소에서 추가합니다. 저장소 주소는 배포 시 이 문서에 적습니다.
 
-패키지 파일 이름은 `<제품명>_<버전>` 형식입니다. 이 문서는 버전 0.1.0 기준입니다.
+패키지 파일 이름은 `com.studioraming.mingpainter-<버전>.unitypackage` 형식입니다. 이 문서는 버전 0.1.0-beta.1 기준입니다.
 
 ![패키지가 추가된 Project 창](/img/captures/install-project-window.png)
 

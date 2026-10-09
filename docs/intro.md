@@ -57,7 +57,7 @@ slug: /
 | 3D 작업 | [3D 작업](/guides/3d) |
 | 캔버스와 파일 | [2D 캔버스](/guides/canvas-2d) · [PSD](/guides/psd) · [가져오기](/guides/import) · [저장과 복구](/guides/save-recover) |
 | 참조 | [설정](/reference/settings) · [단축키](/reference/shortcuts) · [서브툴](/reference/subtools) |
-| 도움 | [문제 해결](/troubleshooting) · [자주 묻는 질문](/faq) · [패치노트](/changelog/0.1.0) |
+| 도움 | [문제 해결](/troubleshooting) · [자주 묻는 질문](/faq) · [패치노트](/changelog/0.1.0-beta.1) |
 
 ## 문의
 
@@ -66,6 +66,6 @@ slug: /
 제보하실 때 아래 내용을 함께 적어 주시면 재현이 빨라집니다.
 
 1. Unity 버전과 렌더 파이프라인 (BRP / URP)
-2. MingPainter 버전 (0.1.0)
+2. MingPainter 버전 (0.1.0-beta.1)
 3. Console 로그 전문
 4. 재현 순서

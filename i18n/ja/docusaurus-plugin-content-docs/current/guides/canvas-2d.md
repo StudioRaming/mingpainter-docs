@@ -56,4 +56,4 @@ sidebar_position: 9
 
 ![下絵を置くと濃さの設定](/img/captures/canvas2d-underlay.png)
 
-スタンプの登録と変形による貼り付けの詳細は、[変形・テキスト・定規・スタンプ](/guides/transform-text#스탬프) にあります。
+スタンプの登録と変形による貼り付けの詳細は、[変形・テキスト・定規・スタンプ](/guides/transform-text#スタンプ) にあります。

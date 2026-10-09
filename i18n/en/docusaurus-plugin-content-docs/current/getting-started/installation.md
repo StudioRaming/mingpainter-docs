@@ -16,7 +16,7 @@ sidebar_position: 1
 1. **unitypackage**: Drag the package file into the Project window of the Unity Editor.
 2. **VPM**: Add it from a VCC or VPM repository. The repository address is listed on this page at release time.
 
-The package file name follows the format `<product name>_<version>`. This page is written for version 0.1.0.
+The package file name follows the format `com.studioraming.mingpainter-<version>.unitypackage`. This page is written for version 0.1.0-beta.1.
 
 ![Project window with the package added](/img/captures/install-project-window.png)
 
