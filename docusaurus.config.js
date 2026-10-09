@@ -24,7 +24,7 @@ const LATEST_CHANGELOG = `/changelog/${MINGPAINTER_VERSION}`;
 const config = {
   title: 'MingPainter Docs',
   tagline: 'Paint 3D model textures inside Unity',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   future: {
     v4: true,
@@ -121,17 +121,13 @@ const config = {
         // navbar badge below, which resolves the locale prefix itself.
         id: 'closed-beta',
         content:
-          `MingPainter ${MINGPAINTER_VERSION}. studioraming@gmail.com`,
-        backgroundColor: '#5b3fd6',
-        textColor: '#ffffff',
+          `MingPainter ${MINGPAINTER_VERSION} Closed Beta.`,
+        backgroundColor: '#d79aaa',
+        textColor: '#101314',
         isCloseable: true,
       },
       navbar: {
         title: 'MingPainter',
-        logo: {
-          alt: 'MingPainter',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'docSidebar',
