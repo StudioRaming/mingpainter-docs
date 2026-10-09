@@ -1,0 +1,26 @@
+{
+  "sidebar.docsSidebar.category.시작하기": {
+    "message": "Getting started",
+    "description": "The label for category 시작하기 in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.칠하기와 레이어": {
+    "message": "Painting and layers",
+    "description": "The label for category 칠하기와 레이어 in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.선택과 변형": {
+    "message": "Selection and transform",
+    "description": "The label for category 선택과 변형 in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.3D 작업": {
+    "message": "3D work",
+    "description": "The label for category 3D 작업 in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.캔버스와 파일": {
+    "message": "Canvas and files",
+    "description": "The label for category 캔버스와 파일 in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.참조": {
+    "message": "Reference",
+    "description": "The label for category 참조 in sidebar docsSidebar"
+  }
+}

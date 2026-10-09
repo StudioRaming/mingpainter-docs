@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.시작하기": {
+    "message": "はじめに",
+    "description": "The label for category '시작하기' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.칠하기와 레이어": {
+    "message": "描画とレイヤー",
+    "description": "The label for category '칠하기와 레이어' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.선택과 변형": {
+    "message": "選択と変形",
+    "description": "The label for category '선택과 변형' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.3D 작업": {
+    "message": "3D作業",
+    "description": "The label for category '3D 작업' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.캔버스와 파일": {
+    "message": "キャンバスとファイル",
+    "description": "The label for category '캔버스와 파일' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.참조": {
+    "message": "リファレンス",
+    "description": "The label for category '참조' in sidebar 'docsSidebar'"
+  }
+}
