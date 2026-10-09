@@ -36,6 +36,8 @@ These are the shader profiles MingPainter knows built in.
 | `liltoon` | `lilToon`, `Hidden/lilToon*`, `_lil/lilToon*` | `lilToon.lilToonInspector` |
 | `mingtoon` | `StudioRaming/MingToon/*` | `StudioRaming.MingToon.Editor.MingToonShaderGUI` |
 | `nilotoon-character` | `Universal Render Pipeline/NiloToon/NiloToon_Character*` | `LWGUI.LWGUI` |
+| `nilotoon-environment` | `Universal Render Pipeline/NiloToon/NiloToon_Environment` | `UnityEditor.Rendering.Universal.ShaderGUI.NiloToonEnvironmentShaderGUI` |
+| `uts` | `Toon`, `Toon(Tessellation)` | `UnityEditor.Rendering.Toon.UTS3GUI` |
 
 ## Next steps
 

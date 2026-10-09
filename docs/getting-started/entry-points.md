@@ -36,6 +36,8 @@ MingPainter가 내장으로 알고 있는 셰이더 프로필은 아래와 같�
 | `liltoon` | `lilToon`, `Hidden/lilToon*`, `_lil/lilToon*` | `lilToon.lilToonInspector` |
 | `mingtoon` | `StudioRaming/MingToon/*` | `StudioRaming.MingToon.Editor.MingToonShaderGUI` |
 | `nilotoon-character` | `Universal Render Pipeline/NiloToon/NiloToon_Character*` | `LWGUI.LWGUI` |
+| `nilotoon-environment` | `Universal Render Pipeline/NiloToon/NiloToon_Environment` | `UnityEditor.Rendering.Universal.ShaderGUI.NiloToonEnvironmentShaderGUI` |
+| `uts` | `Toon`, `Toon(Tessellation)` | `UnityEditor.Rendering.Toon.UTS3GUI` |
 
 ## 다음 단계
 

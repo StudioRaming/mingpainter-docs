@@ -13,7 +13,7 @@ No. The supported range is Windows with the Built-in (BRP) or URP pipeline. For 
 
 ### Does the original texture file change? {#original-texture-file}
 
-No. MingPainter never overwrites the original texture file. When you save, `<name>_paint.png` is created next to it, and the material's texture slot points to that PNG. To revert, see [Save and recover](/guides/save-recover#revert-to-the-original).
+No. MingPainter never overwrites the original texture file. When you save, `<name>_paint.png` is created next to it, and a copy of the material, `<material name>_paint.mat`, points to that PNG. The original material is not edited. To revert, see [Save and recover](/guides/save-recover#revert-to-the-original).
 
 ### Do unsaved changes disappear when I close and reopen Unity? {#unsaved-changes}
 

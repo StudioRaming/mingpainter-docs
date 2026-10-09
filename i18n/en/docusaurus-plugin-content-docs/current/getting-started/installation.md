@@ -11,10 +11,10 @@ sidebar_position: 1
 
 ## How to install
 
-**Two ways** are available. Pick whichever you prefer. Either way, you add the MingPainter package to your project.
+**Two ways** are available. Either way, you add the MingPainter package to your project. The closed beta (0.1.0-beta.1) is shipped as a unitypackage only.
 
 1. **unitypackage**: Drag the package file into the Project window of the Unity Editor.
-2. **VPM**: Add it from a VCC or VPM repository. The repository address is listed on this page at release time.
+2. **VPM**: Add it from a VCC or VPM repository. This starts with the full release, and the repository address will be listed on this page then.
 
 The package file name follows the format `com.studioraming.mingpainter-<version>.unitypackage`. This page is written for version 0.1.0-beta.1.
 

@@ -11,10 +11,10 @@ sidebar_position: 1
 
 ## 설치 방법
 
-**두 가지 방법** 중 편한 쪽을 고르세요. 어느 쪽이든 MingPainter 패키지를 프로젝트에 추가합니다.
+**두 가지 방법**이 있습니다. 어느 쪽이든 MingPainter 패키지를 프로젝트에 추가합니다. 클로즈드 베타(0.1.0-beta.1)는 unitypackage로만 드립니다.
 
 1. **unitypackage**: 패키지 파일을 Unity 에디터의 Project 창으로 끌어 넣습니다.
-2. **VPM**: VCC 또는 VPM 저장소에서 추가합니다. 저장소 주소는 배포 시 이 문서에 적습니다.
+2. **VPM**: VCC 또는 VPM 저장소에서 추가합니다. 정식판부터 제공하며, 저장소 주소는 그때 이 문서에 적습니다.
 
 패키지 파일 이름은 `com.studioraming.mingpainter-<버전>.unitypackage` 형식입니다. 이 문서는 버전 0.1.0-beta.1 기준입니다.
 

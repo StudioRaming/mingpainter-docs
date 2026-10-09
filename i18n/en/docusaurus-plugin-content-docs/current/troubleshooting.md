@@ -23,9 +23,9 @@ The status line shows `Failed to open: <file name>: <reason>`. The reason may be
 
 ## Pen is not detected {#pen-is-not-detected}
 
-- Pen input has two paths: Windows Ink (Unity pen events) and WinTab. By default (`Auto`), Unity 2022.1 and later use Windows Ink first, and WinTab fills in when Unity reports only mouse input. Unity 2019.4 and 2021.3 use WinTab.
-- If the WinTab driver (`wintab32.dll`) is missing, only Windows Ink is used. Pen pressure may not come through in that case.
-- You can choose the input path from `Auto`, Unity events, or WinTab. Open the pen diagnostics window and pen calibration with the buttons in the settings window. Without a pen, you paint with the mouse and pressure is fixed at 1.
+- Pen input has two paths: Windows Ink (Unity pen events) and WinTab. By default (`Auto`), Unity 2022.1 and later use Windows Ink first, and WinTab fills in when Unity reports only mouse input. Unity 2019.4 and 2021.3 use WinTab first when the WinTab driver is installed.
+- If the WinTab driver (`wintab32.dll`) is missing, only Unity pen events (Windows Ink on 2022.1 and later) are used. Pen pressure may not come through in that case.
+- You can choose the pressure source from `Auto`, `Windows Ink`, `WinTab`, or `Mouse (no pressure)`. The `Open WinTab diagnostics` button in the settings window opens the pen diagnostics window, and pen calibration (Calibrate) is done in that window. Without a pen, you paint with the mouse and pressure is fixed at 1.
 
 ## The right-click menu is missing
 
