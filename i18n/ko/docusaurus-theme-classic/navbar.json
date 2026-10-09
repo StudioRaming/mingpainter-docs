@@ -1,0 +1,7 @@
+{
+  "title": {"message": "MingPainter", "description": "The title in the navbar"},
+  "logo.alt": {"message": "MingPainter", "description": "The alt text of navbar logo"},
+  "item.label.Docs": {"message": "문서", "description": "Navbar item with label Docs"},
+  "item.label.패치노트": {"message": "패치노트", "description": "Navbar item with label 패치노트"},
+  "item.label.v0.1.0": {"message": "v0.1.0", "description": "Navbar item with label v0.1.0"}
+}
