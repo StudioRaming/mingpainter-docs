@@ -13,7 +13,7 @@ The layer panel shows raster layers, folders, and adjustment layers in one list.
 
 ## Blend modes
 
-Layers and folders have 29 blend modes. That is Photoshop's 27 plus CSP's 2 (Glow dodge and Add glow). The blend list is split into 7 groups, with a divider between groups.
+Layers and folders have 29 blend modes. That is Photoshop's 27 plus CSP's 2 (`Glow Dodge` and `Add (Glow)`). The blend list is split into 7 groups, with a divider between groups.
 
 Pick the blend mode in the property row. The `Fill` slider is in the row below it.
 
