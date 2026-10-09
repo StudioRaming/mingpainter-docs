@@ -18,6 +18,7 @@ slug: /
 - **선택과 변형**: 선택 영역으로 칠할 곳을 제한하고, 떠 있는 그림으로 옮기거나 늘리고 돌립니다. → [선택](/guides/selection)
 - **PSD 왕복**: PSD 파일을 레이어째 열고, 작업 결과를 PSD로 내보냅니다. → [PSD](/guides/psd)
 - **2D 캔버스**: 3D 모델 없이 빈 캔버스에 그린 뒤 스탬프로 등록하거나 모델에 붙입니다. → [2D 캔버스](/guides/canvas-2d)
+- **3D 작업**: 표시 범위(숨김), 대칭 고급, 웨이트 선택, AO 굽기, 요철, 여러 재질을 세트로 다루기를 씁니다. → [3D 작업](/guides/3d)
 
 ## 지원 환경
 
@@ -53,6 +54,7 @@ slug: /
 | 시작하기 | [설치](/getting-started/installation) · [진입 방법](/getting-started/entry-points) |
 | 칠하기와 레이어 | [칠하기](/guides/painting) · [레이어](/guides/layers) |
 | 선택과 변형 | [선택](/guides/selection) · [채우기·그라데이션·도형](/guides/fill-gradient-shape) · [변형·텍스트·자·스탬프](/guides/transform-text) |
+| 3D 작업 | [3D 작업](/guides/3d) |
 | 캔버스와 파일 | [2D 캔버스](/guides/canvas-2d) · [PSD](/guides/psd) · [가져오기](/guides/import) · [저장과 복구](/guides/save-recover) |
 | 참조 | [설정](/reference/settings) · [단축키](/reference/shortcuts) · [서브툴](/reference/subtools) |
 | 도움 | [문제 해결](/troubleshooting) · [자주 묻는 질문](/faq) · [패치노트](/changelog/0.1.0) |

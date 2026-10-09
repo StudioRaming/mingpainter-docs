@@ -32,6 +32,12 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '3D 작업',
+      collapsed: false,
+      items: ['guides/3d'],
+    },
+    {
+      type: 'category',
       label: '캔버스와 파일',
       collapsed: false,
       items: [
