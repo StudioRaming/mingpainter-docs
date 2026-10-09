@@ -237,3 +237,14 @@ article > section.row .theme-doc-card-heading {
 
 .navbar__title { color: var(--ifm-heading-color); }
 .alert--secondary a { color: var(--ifm-color-primary); }
+
+/* A screenshot not captured yet (src/remark/pending-captures.mjs): one quiet line where the image will go. */
+.markdown .capture-pending {
+  display: block;
+  margin: 0.5rem 0 1.25rem;
+  padding: 6px 12px;
+  border-left: 2px solid var(--brand-rule);
+  color: var(--brand-muted);
+  font-size: 13px;
+  font-style: normal;
+}

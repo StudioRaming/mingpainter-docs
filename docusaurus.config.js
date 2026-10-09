@@ -2,6 +2,7 @@
 import path from 'node:path';
 import {themes as prismThemes} from 'prism-react-renderer';
 import autoLinkTerms from './src/remark/auto-link-terms.mjs';
+import pendingCaptures from './src/remark/pending-captures.mjs';
 
 // The one place the shipped version is written. The announcement bar, the
 // navbar badge, and the footer all read it, so a release bumps this line and
@@ -71,6 +72,10 @@ const config = {
           sidebarPath: './sidebars.js',
           remarkPlugins: [
             [autoLinkTerms, {docsDir: path.resolve('docs')}],
+          ],
+          // before the defaults: Docusaurus' image transform turns an image node into JSX first
+          beforeDefaultRemarkPlugins: [
+            [pendingCaptures, {list: path.resolve('src/remark/pending-captures.json')}],
           ],
           // No editUrl on purpose: readers get no "edit this page" affordance.
           // Content changes go through this repository only.
