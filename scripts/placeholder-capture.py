@@ -42,7 +42,8 @@ def main(argv):
         for text, font, y in ((label, big, HEIGHT // 2 - 30), ("PLACEHOLDER", small, HEIGHT // 2 + 30)):
             left, top, right, bottom = draw.textbbox((0, 0), text, font=font)
             draw.text(((WIDTH - (right - left)) // 2, y), text, font=font, fill=TEXT)
-        image.save(os.path.join(out_dir, name), "PNG")
+        fmt = {".webp": "WEBP", ".gif": "GIF"}.get(os.path.splitext(name)[1].lower(), "PNG")
+        image.save(os.path.join(out_dir, name), fmt)
     print("placeholders written: %d" % (len(argv) - 2))
     return 0
 

@@ -16,7 +16,7 @@ const LABEL = {
   en: 'Screenshot coming soon',
   ja: 'スクリーンショット準備中',
 };
-const REF = /\/img\/captures\/([A-Za-z0-9._-]+\.png)$/;
+const REF = /\/img\/captures\/([A-Za-z0-9._-]+\.(?:png|webp|gif))$/;
 
 function localeOf(filePath) {
   const m = /[\\/]i18n[\\/]([a-z]{2})[\\/]/.exec(filePath || '');

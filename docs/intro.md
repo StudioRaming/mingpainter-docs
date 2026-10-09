@@ -11,6 +11,10 @@ slug: /
 
 모델 위에 바로 그리고, 텍스처 칸을 떠나지 않고 레이어와 마스크로 다듬을 수 있습니다. 칠하기 창은 Scene 뷰와 UV 캔버스 두 곳에서 같은 도구를 씁니다.
 
+![Scene 뷰에서 모델의 옷과 머리카락에 바로 칠한 모습](/img/captures/scene-paint-hero.png)
+
+![모델 위에 획을 긋는 모습](/img/captures/scene-paint-stroke.webp)
+
 ## 할 수 있는 일
 
 - **모델에 직접 칠하기**: 펜, 붓, 지우개, 채우기, 혼색으로 Scene 뷰의 모델 표면에 바로 칠합니다. → [칠하기](/guides/painting)

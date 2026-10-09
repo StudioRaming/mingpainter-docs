@@ -11,6 +11,8 @@ sidebar_position: 3
 
 Painting tools are gathered on the **tool strip**. When you pick a tool, its subtools and properties appear in the brush tool window.
 
+![Brush cursor and stroke on the model in the Scene view](/img/captures/paint-scene-cursor.png)
+
 ## Tool strip
 
 | Tool | Default key (CSP) | Default key (PS) | What it does |
@@ -150,6 +152,8 @@ When you paint on the UV canvas, a stroke crosses the boundary of a UV island an
 - It is on by default. Turn it on or off with the `Across seams` toggle on the UV canvas.
 - It works only when surface information for the model is available.
 - It does not cross faces that bend sharply, by more than 120 degrees.
+
+![A stroke continuing across a UV seam](/img/captures/paint-seam-crossing.png)
 
 ## Shortcuts
 

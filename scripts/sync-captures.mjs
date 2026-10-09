@@ -3,7 +3,7 @@
 //
 // The capture lane writes final PNGs into final/; only the ones a reviewer
 // copied into approved/ (CAPTURE_SRC) are published. Pages reference them as
-// /img/captures/<name>.png, so a page still renders before its capture exists,
+// /img/captures/<name>.png (.webp or .gif for animations), so a page still renders before its capture exists,
 // and the build never breaks on a missing image. Every referenced name without
 // an approved capture goes into src/remark/pending-captures.json, which
 // src/remark/pending-captures.mjs renders as one "screenshot coming" line.
@@ -20,7 +20,7 @@ const SRC = process.env.CAPTURE_SRC || 'E:/Unity/_mingpainter/work/S7/docs-captu
 const PENDING = path.join(ROOT, 'src', 'remark', 'pending-captures.json');
 const DEST = path.join(ROOT, 'static', 'img', 'captures');
 const DOCS = path.join(ROOT, 'docs');
-const REF = /\/img\/captures\/([A-Za-z0-9._-]+\.png)/g;
+const REF = /\/img\/captures\/([A-Za-z0-9._-]+\.(?:png|webp|gif))/g;
 
 function walk(dir, acc = []) {
   for (const e of fs.readdirSync(dir, {withFileTypes: true})) {
@@ -47,7 +47,7 @@ let copied = 0;
 const approved = new Set();
 if (fs.existsSync(SRC)) {
   for (const name of fs.readdirSync(SRC)) {
-    if (!name.toLowerCase().endsWith('.png')) continue;
+    if (!/\.(png|webp|gif)$/i.test(name)) continue;
     fs.copyFileSync(path.join(SRC, name), path.join(DEST, name));
     approved.add(name);
     copied++;

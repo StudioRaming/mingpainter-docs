@@ -11,6 +11,10 @@ slug: /
 
 Paint right on the model, and refine with layers and masks without leaving the texture slot. The painting window uses the same tools in two places: the Scene view and the UV canvas.
 
+![Painting the outfit and hair directly on the model in the Scene view](/img/captures/scene-paint-hero.png)
+
+![Drawing a stroke on the model](/img/captures/scene-paint-stroke.webp)
+
 ## What you can do
 
 - **Paint on the model**: Paint straight onto the model surface in the Scene view with pens, brushes, erasers, fills, and colour mixing. → [Painting](/guides/painting)
