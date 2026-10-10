@@ -1,14 +1,11 @@
 [
   "blend-strokes.png",
-  "bump-target.png",
   "canvas2d-close-confirm.png",
   "canvas2d-stamp-register.png",
   "canvas2d-underlay.png",
   "dualtip-properties.png",
   "emboss-normal-suggest.png",
-  "emboss-stamps.png",
   "first-run-paint-window.png",
-  "gradient-3d-handles.png",
   "import-brush-dialog.png",
   "layers-autosplit-result.png",
   "layers-effects-three.png",
@@ -17,7 +14,6 @@
   "mm-window.png",
   "psd-open-layers.png",
   "psd-warnings-window.png",
-  "ruler-chip.png",
   "save-paint-png-project.png",
   "select-island-face-wand.png",
   "select-modifiers.png",
@@ -26,9 +22,6 @@
   "select-through-backfaces.png",
   "selection-bar-menus.png",
   "selection-bar-narrow.png",
-  "shape-subtools.png",
   "stamp-window-full.png",
-  "transform-3d-handles.png",
-  "transform-warp-grid.png",
-  "weight-window.png"
+  "transform-warp-grid.png"
 ]
